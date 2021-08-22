@@ -1,0 +1,45 @@
+.dbl-click {
+  position: absolute;
+  top: 0;
+  z-index: 100000;
+  margin: auto;
+  height: auto;
+  width: auto;
+}
+
+.dropdown-menu {
+  background: #fff;
+  border: 1px solid #babec5;
+  padding: 2px 1px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.dropdown-menu-item {
+  white-space: nowrap;
+  position: relative;
+  z-index: 1000;
+  text-align: left;
+  width: 100%;
+  list-style: none;
+  min-width: 100px;
+  font-weight: 400 !important;
+  font-size: 13px;
+}
+
+.dropdown-menu-item-text {
+  background: inherit !important;
+  color: inherit !important;
+  cursor: pointer;
+  width: calc(100% - 20px);
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  display: block;
+}
+
+li:hover {
+  background-color: #c7c7c7;
+  color: #01b075;
+}

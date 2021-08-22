@@ -1,0 +1,64 @@
+.navbar {
+  float: left;
+  width: 179px;
+  height: calc(100vh - 62px);
+  top: 48px;
+  position: absolute;
+  background-color: #393a3d;
+  border-right: 1px solid #e5e5e5;
+  color: #ffffff;
+  padding-top: 14px;
+}
+
+.logo-box {
+  position: relative;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  height: 36px;
+  left: 24px;
+}
+
+.logo-site {
+  display: flex;
+  width: 179px;
+  height: 48px;
+  background-color: #393a3d;
+}
+
+.toggle-icon {
+  background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -428px -92px;
+  width: 16px;
+  height: 16px;
+}
+
+.amis-logo {
+  margin-left: 10px;
+  width: 100px;
+  height: 30px;
+  background-image: url('../../assets/img/logo-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar-assets {
+  width: 100%;
+}
+
+.nav-item {
+  display: flex;
+  padding: 0 14px 0 8px;
+  border-left: 6px solid #393a3d;
+
+  height: 42px;
+  cursor: pointer;
+  line-height: 44px;
+}
+
+.nav-item-icon {
+  background-repeat: no-repeat;
+  position: relative;
+  top: 10px;
+  margin-right: 10px;
+  background-image: url('../../assets/img/Sprites.64af8f61.svg');
+}

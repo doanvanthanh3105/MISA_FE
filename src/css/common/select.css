@@ -1,0 +1,114 @@
+select {
+  height: 30px;
+  width: 200px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #bbbbbb;
+  margin-left: 12px;
+}
+
+.custom-select {
+  position: relative;
+  margin-left: 12px;
+  height: 30px;
+}
+
+.custom-select-title {
+  display: flex;
+  height: 30px;
+
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #c0b4b4;
+  background-color: #ffffff;
+  cursor: pointer;
+  padding-left: 12px;
+}
+
+.custom-select-title-text {
+  width: 160px;
+
+  margin-bottom: 4px;
+}
+
+.custom-select-title-icon {
+  width: 30px;
+  padding: 0;
+  height: 30px;
+  border-left: 1px solid #e5e5e5;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.custom-options {
+  z-index: 1000;
+  max-height: 100px;
+  width: 100%;
+  overflow: auto;
+  position: absolute;
+  left: -1px;
+  right: 0;
+  border: 1px solid #c0b4b4 !important;
+  margin-top: 4px;
+  border-radius: 2px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #ffffff;
+}
+
+.custom-option {
+  /* display: none; */
+  position: relative;
+  z-index: 999;
+  height: 30px;
+  width: 100%;
+  outline: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  align-items: center !important;
+}
+
+.custom-option:hover {
+  background-color: #ebedf0;
+  color: #2ca01c;
+}
+
+.custom-option-text {
+  width: 159px;
+  padding: 5px 0 0 12px;
+}
+
+.restaurant-select div {
+  border-style: none;
+}
+
+.form-select {
+  width: calc(100% - 2px);
+  border: 1px solid #c7c7c7;
+}
+
+.form-select div {
+  border-style: none;
+}
+
+.form-select-title {
+  margin-left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #ffffff;
+  padding-left: 0px;
+}
+
+.form-select .custom-option {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.my-select {
+  border: none !important ;
+  height: 30px;
+  padding: 0;
+}

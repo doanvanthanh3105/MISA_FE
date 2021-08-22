@@ -1,0 +1,145 @@
+.content {
+  position: absolute;
+  top: 49px;
+  left: 180px;
+
+  width: calc(100% - 196px);
+
+  height: calc(100vh - 49px);
+  background-color: #f4f5f8;
+  padding-left: 16px;
+}
+
+.content .header-content {
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 10000;
+  width: calc(100% - 40px);
+  background-color: #f4f5f8;
+  justify-content: space-between;
+}
+
+.content .header-content .title {
+  font-size: 24px;
+  font-family: Notosans-bold;
+  font-weight: bold;
+}
+
+.content .header-content .content-feature {
+  margin-right: 4px;
+}
+
+.content .header-content .content-feature .icon-add {
+  background-image: url('../../assets/icon/add.png');
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+.main-content {
+  width: calc(100% - 16px);
+  overflow: auto;
+  max-height: calc(100% - 84px);
+  padding: 84px 0 0 0;
+  position: absolute;
+  top: 0;
+}
+
+.content .filter-bar .filter-left {
+  width: 100%;
+}
+
+.paging-bar {
+  width: calc(100%);
+  height: 56px;
+  display: flex;
+  z-index: 10000;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.content .paging-bar .backward-buttons {
+  margin: auto;
+  display: flex;
+}
+
+.content .paging-bar .paging-list {
+  margin: auto;
+  display: flex;
+}
+
+.content .paging-bar .paging-item {
+  padding: 0 7px;
+  height: 18px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.paging-divide-right {
+  margin: 0 8px;
+}
+
+.paging-divide-left {
+  margin: 0 8px;
+}
+
+.content .paging-bar .paging-list .paging-item:hover {
+  background-color: #e9ebee;
+}
+
+.content .paging-bar .forward-buttons {
+  margin: auto;
+  display: flex;
+}
+
+.paging-option {
+  margin-right: 24px;
+}
+
+.backward-text {
+  margin-right: 12px;
+
+  cursor: pointer;
+}
+
+.forward-text {
+  margin-left: 12px;
+
+  cursor: pointer;
+}
+
+.paging-bar-left {
+  float: left;
+  margin: auto 0 auto 16px;
+  width: 100%;
+}
+
+.paging-bar-right {
+  float: right;
+  margin: auto 16px auto 0;
+}
+
+.filter-bar {
+  width: calc(100% - 30px);
+  height: 40px;
+  display: flex;
+  padding: 15px 0;
+  align-items: center;
+  position: sticky;
+  left: 0;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.filter-bar .filter-right {
+  display: flex;
+  cursor: pointer;
+  height: 32px;
+  align-items: center;
+  margin-right: 12px;
+}

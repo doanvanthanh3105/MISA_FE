@@ -1,0 +1,77 @@
+.pop-off-form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 400px;
+  z-index: 1000000000;
+  height: 120px;
+  /* background-color: white; */
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-family: Notosans;
+  border: 1px solid #c7c7c7;
+  padding: 32px;
+}
+
+.form-header-text {
+  padding: 24px 24px 0 24px;
+  width: calc(100% - 78px);
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.form-content {
+  align-items: center;
+  display: flex;
+  width: 380px;
+  height: 62px;
+  margin-left: 4px;
+}
+
+.pop-off-form .divide {
+  margin-top: 12px;
+}
+
+.warning-form-footer {
+  height: 36px;
+}
+
+.warning-form-footer .close-btn {
+  height: 36px;
+  position: relative;
+  left: 44%;
+}
+
+.form-msg {
+  padding-left: 24px;
+  font-family: Notosans;
+  width: calc(100% - 80px);
+}
+
+.form-content-text {
+  margin: 24px 24px 24px 0;
+  width: calc(100% - 88px);
+  text-align: left;
+}
+
+.form-footer {
+  background-color: #dadce0;
+  width: 100%;
+  height: 60px;
+  border-radius: 0 0 4px 4px;
+}
+
+.form-footer button {
+  float: right;
+  margin: 10px 8px 10px 8px;
+}
+
+.icon-msg {
+  background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -752px -462px;
+  width: 36px;
+  height: 36px;
+}
